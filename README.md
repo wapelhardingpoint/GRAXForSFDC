@@ -19,7 +19,7 @@ You can automatically deploy the SDK to a new scratch environment using the _Dep
 1. Clone this repository from GitHub using the following command:
 
     ```bash
-    git clone https://github.com/HardingPoint/GRAXForSFDC
+    git clone https://github.com/HardingPoint/GRAXForSFDC && cd GRAXForSFDC
     ```
 
 1. Create a new scratch environment (optional if you don't want to re-use an existing one):
@@ -43,16 +43,10 @@ If you want to use the GRAX SDK within a non-scratch environment you can deploy 
     ```
     In the browser window that opens, sign in to your org with your credentials. More information [here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm)
 
-1. Create an output directory:
-
-    ```bash
-    mkdir mdapioutput
-    ```
-
 1. Convert the source code:
 
     ```bash
-    sfdx force:source:convert -d mdapioutput/
+    mkdir mdapioutput && sfdx force:source:convert -d mdapioutput/
     ```
 
 1. Deploy the source code:
