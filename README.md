@@ -2,7 +2,7 @@
 
 # GRAX by Harding Point Salesforce SDK
 
-The GRAX by Harding Point Salesforce SDK uses the [GRAX Cloud](https://www.grax.io/) services to help you solve complex problems by applying graph theory to your Salesforce environment(s).
+The GRAX Salesforce SDK uses the [GRAX Cloud](https://www.grax.io/) services to help you solve complex problems by applying graph theory to your Salesforce environment(s).
 
 ## Installation
 
