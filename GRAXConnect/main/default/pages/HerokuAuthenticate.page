@@ -1,0 +1,7 @@
+<apex:page controller="herokuauthclass">
+ <apex:form >
+ <apex:commandButton value="Connect To Heroku" action="{!connect}"/>
+ <apex:commandButton value="Fetch Auth Token" action="{!showtoken}"/>
+ </apex:form>
+ {!bodyprint}
+</apex:page>
