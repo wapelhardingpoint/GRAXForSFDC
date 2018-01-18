@@ -6,15 +6,15 @@ The GRAX Salesforce SDK uses the [GRAX Cloud](https://www.grax.io/) services to 
 
 ## Installation
 
-There are two supported installation methods: automatically using Salesforce DX, manually using Salesforce DX. By default, all classes in the SDK will be deployed to your Salesforce org. If you would like to deploy the GRAX Salesforce SDK follow the manual instructions to push to your environment.
+There are two supported installation methods: automatically using [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli), manually using [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli). By default, all classes in the SDK will be deployed to your Salesforce org. If you would like to deploy the GRAX Salesforce SDK follow the manual instructions to push to your environment.
 
-### Salesforce DX Automatic deployment
+### [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli) Automatic deployment
 
 You can automatically deploy the SDK to a new scratch environment using the _Deploy to SFDX_ button.
 
 [![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com/)
 
-### Salesforce DX Manual deployment
+### [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli) Manual deployment
 
 1. Clone this repository from GitHub using the following command:
 
@@ -25,7 +25,7 @@ You can automatically deploy the SDK to a new scratch environment using the _Dep
 1. Create a new scratch environment (optional if you don't want to re-use an existing one):
 
     ```bash
-    [sfdx](https://developer.salesforce.com/tools/sfdxcli) force:org:create -a grax-sdk -s -f config/project-scratch-def.json
+    sfdx force:org:create -a grax-sdk -s -f config/project-scratch-def.json
     ```
 
 1. Push the source to the scratch environment:
