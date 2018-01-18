@@ -9,25 +9,21 @@ The GRAX Salesforce SDK uses the [GRAX Cloud](https://www.grax.io/) services to 
 There are two supported installation methods: 
 automatically using [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli), manually using [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli). By default, all classes in the SDK will be deployed to your Salesforce org. If you would like to deploy the GRAX Salesforce SDK follow the manual instructions to push to your environment.
 
-<details>
-	<summary><b>Automatic deployment</b></summary>
-	<p>
-		You can automatically deploy the SDK to a new scratch environment using the _Deploy to SFDX_ button.
-
-		[![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com/)
-		
-	</p>
-</details>
+* <b>Automatic Deployment</b> - Use this to deploy to a Salesforce Scratch environment.
+* <b>Manual Deployment</b> - Use this to deploy to any Salesforce environment.
 
 
-### [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli) Automatic deployment
-
+---------------------------------------------------------------------------------------------------------
+### Salesforce DX Automatic deployment
+---------------------------------------------------------------------------------------------------------
 You can automatically deploy the SDK to a new scratch environment using the _Deploy to SFDX_ button.
 
 [![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com/)
 
-### [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli) Manual deployment
 
+---------------------------------------------------------------------------------------------------------
+### Salesforce DX Manual deployment
+---------------------------------------------------------------------------------------------------------
 1. Clone this repository from GitHub using the following command:
 
     ```bash
