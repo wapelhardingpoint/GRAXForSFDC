@@ -4,6 +4,7 @@
 
 The GRAX Salesforce SDK uses the [GRAX Cloud](https://www.grax.io/) services to help you solve complex problems by applying graph theory to your Salesforce environment(s).
 
+---------------------------------------------------------------------------------------------------------
 ## Installation
 
 There are two supported installation methods: 
@@ -11,19 +12,16 @@ automatically using [Salesforce DX](https://developer.salesforce.com/tools/sfdxc
 
 * <b>Automatic Deployment</b> - Use this to deploy to a Salesforce Scratch environment.
 * <b>Manual Deployment</b> - Use this to deploy to any Salesforce environment.
-
-
 ---------------------------------------------------------------------------------------------------------
+
+
 ### Salesforce DX Automatic deployment
----------------------------------------------------------------------------------------------------------
 You can automatically deploy the SDK to a new scratch environment using the _Deploy to SFDX_ button.
 
 [![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com/)
 
 
----------------------------------------------------------------------------------------------------------
 ### Salesforce DX Manual deployment
----------------------------------------------------------------------------------------------------------
 1. Clone this repository from GitHub using the following command:
 
     ```bash
