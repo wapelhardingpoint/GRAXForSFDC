@@ -25,7 +25,7 @@ You can automatically deploy the SDK to a new scratch environment using the _Dep
 1. Create a new scratch environment (optional if you don't want to re-use an existing one):
 
     ```bash
-    sfdx force:org:create -a grax-sdk -s -f config/project-scratch-def.json
+    [sfdx](https://developer.salesforce.com/tools/sfdxcli) force:org:create -a grax-sdk -s -f config/project-scratch-def.json
     ```
 
 1. Push the source to the scratch environment:
