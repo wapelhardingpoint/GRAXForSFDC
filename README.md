@@ -10,7 +10,7 @@ There are two supported installation methods:
 automatically using [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli), manually using [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli). By default, all classes in the SDK will be deployed to your Salesforce org. If you would like to deploy the GRAX Salesforce SDK follow the manual instructions to push to your environment.
 
 <details>
-	<summary>### [Salesforce DX](https://developer.salesforce.com/tools/sfdxcli) Automatic deployment</summary>
+	<summary><b>Automatic deployment</b></summary>
 	<p>
 		You can automatically deploy the SDK to a new scratch environment using the _Deploy to SFDX_ button.
 
