@@ -5,6 +5,13 @@
 The GRAX Salesforce SDK uses the [GRAX Cloud](https://www.grax.io/) services to help you solve complex problems by applying graph theory to your Salesforce environment(s).
 
 ---------------------------------------------------------------------------------------------------------
+## Prerequisites 
+
+Please make sure to have Dev Hub enabled. For this you have two options: 
+
+Enable dev hub in a Production or Business Org (i.e. not a DE org). Search on “Dev Hub” from Setup and then click Enabled.
+[Get a 30-day free trial.](https://sfdc.co/DX-Trial-Org)
+
 ## Installation
 
 There are two supported installation methods: 
