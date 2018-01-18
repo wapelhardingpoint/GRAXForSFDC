@@ -46,7 +46,7 @@ If you want to use the GRAX SDK within a non-scratch environment you can deploy 
 1. Convert the source code:
 
     ```bash
-    mkdir mdapioutput && sfdx force:source:convert -d mdapioutput/
+    sfdx force:source:convert -d mdapioutput/
     ```
 
 1. Deploy the source code:
