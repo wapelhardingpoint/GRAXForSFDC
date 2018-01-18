@@ -1,0 +1,7 @@
+{
+    "orgName": "GRAX by Harding Point",
+    "edition": "Enterprise",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+}
