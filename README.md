@@ -6,7 +6,7 @@ The GRAX Salesforce SDK uses the [GRAX Cloud](https://www.grax.io/) services to 
 
 ## Installation
 
-There are two supported installation methods: automatically using Salesforce DX, manually using Salesforce DX. By default, all classes in the SDK will be deployed to your Salesforce org.
+There are two supported installation methods: automatically using Salesforce DX, manually using Salesforce DX. By default, all classes in the SDK will be deployed to your Salesforce org. If you would like to deploy the GRAX Salesforce SDK follow the manual instructions to push to your environment.
 
 ### Salesforce DX Automatic deployment
 
